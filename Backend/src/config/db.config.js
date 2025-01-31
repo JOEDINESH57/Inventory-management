@@ -8,6 +8,6 @@ exports.ConnectDB = async()=>{
     }
     catch(error){
         mongoose.disconnect();
-        process.exit(1)
+        process.exit(0)
     }
 }
